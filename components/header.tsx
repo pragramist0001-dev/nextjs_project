@@ -53,7 +53,7 @@ export default function Header() {
       </nav>
       <Button
         variant="secondary"
-        className="rounded-xl px-4"
+        className="rounded-xl px-4 cursor-pointer"
         onClick={handleAuthClick}
       >
         {isAuthenticated ? "Chiqish" : "Kirish"}

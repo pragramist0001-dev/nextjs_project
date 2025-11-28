@@ -60,7 +60,7 @@ export default function LoginForm() {
       )}
       <Button
         type="submit"
-        className="w-full rounded-xl py-2 text-base font-semibold"
+        className="w-full rounded-xl py-2 text-base font-semibold cursor-pointer"
         disabled={loading}
       >
         {loading ? "Yuklanmoqda..." : "Kirish"}

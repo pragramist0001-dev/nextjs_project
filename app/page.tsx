@@ -32,11 +32,7 @@ export default async function Home() {
             <h1 className="text-4xl font-bold text-slate-900">
               Eng so‘nggi mahsulotlarni online xarid qiling
             </h1>
-            <p className="text-base text-slate-600">
-              Barcha mahsulotlar Supabase maʼlumotlar bazasidan yuklanadi.
-              Mahsulot kartasini ochib, batafsil maʼlumot oling va savatchaga
-              qo‘shing.
-            </p>
+            
           </div>
           <ProductGrid products={products} />
         </section>
